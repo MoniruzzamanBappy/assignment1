@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+/* mission design */
+.mission{
+    display: flex;
+    margin-bottom: 100px;
+}
+.miss-text{
+    width: 50%;
+    margin-left: 100px;
+}
+.miss-header{
+font-size: 35px;
+border-left: 4px solid rgb(67, 151, 147);
+padding-left: 10px;
+}
+.color{
+    color: rgb(67, 151, 147);
+    
+}
+/* btn design */
+#miss-btn{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(67, 151, 147), rgb(203, 223, 236));
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.miss-img{
+    width: 50%;
+    margin: auto;
+    margin-left: 150px;
+}
+#profile-photo{
+    height: 300px;
+    width: 300px;
+}
+
+/* my mission section */
+
+#miss2022-id{
+    text-align: center;
+    font-size: 35px;
+}
+.mission-2022 .mission img{
+    height: 100px;
+    width: 100px;
+}
+.miss-item{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    text-align: justify;
+}
+.item1{
+    background-color: rgba(93, 117, 117, 0.411);
+}
+.item2{
+    background-color: rgba(147, 201, 174, 0.411);
+}
+.item3{
+    background-color: rgba(179, 199, 90, 0.411);
+}
+
+/*  descrive section design */
+
+#des-h{
+    font-size: 35px;
+}
+
+.descrive-text{
+    width: 100%;
+    text-align: justify;
+    margin-right: 250px;
+    margin-left: 20px;
+}
+
+/* employe design */
+
+.emp-person{
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+
+/* footer section */
+
+footer{
+    background-color: darkslategray;
+    text-align: center;
+
+}
+footer p{
+    color: white;
+    font-size: 10px;
+}
+#footer-h1{
+     font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;;
+}
