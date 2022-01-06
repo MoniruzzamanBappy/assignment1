@@ -1,8 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    border: 0;
-    background-color: rgba(0, 0, 0, 0.11);
+    background-color: rgba(0, 0, 0, 0.199);
 }
 /* mission design */
 .mission{
@@ -13,9 +12,17 @@ body{
     width: 50%;
     margin-left: 100px;
 }
+.miss-header h1::before{
+    content:"";
+    height: 155px;
+    background: rgb(67, 151, 147);
+    float: left;
+    border: 3px solid rgb(67, 151, 147);
+    border-radius: 5px;
+    margin-right: 10px;
+}
 .miss-header{
 font-size: 35px;
-border-left: 4px solid rgb(67, 151, 147);
 padding-left: 10px;
 }
 .color{
@@ -25,7 +32,7 @@ padding-left: 10px;
 /* btn design */
 #miss-btn{
     text-decoration: none;
-    background-image: linear-gradient(rgb(67, 151, 147), rgb(203, 223, 236));
+    background-image: linear-gradient(to right,rgb(67, 151, 147), rgb(130, 174, 204));
     padding: 10px 50px;
     border-radius: 5px;
     color: white;
@@ -104,7 +111,5 @@ footer p{
     color: white;
     font-size: 10px;
 }
-#footer-h1{
-     font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif;;
-}
+
+
